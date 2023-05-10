@@ -1,4 +1,5 @@
 import "./App.css";
+import Courselist from "./components/Courselist";
 import Courseform from "./components/Courseform";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         My Course list
       </h1>
       <Courseform/>
+      <Courselist/>
     </div>
   );
 }

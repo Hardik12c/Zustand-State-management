@@ -7,7 +7,7 @@ export default function Courseform() {
   const handlecoursesubmit = () => {
     if (!courseTitle) return alert("please add a course title");
     addCourse({
-      id: Math.ceil(Math.random * 100000),
+      id: Math.ceil(Math.random() * 100000),
       title: courseTitle,
     });
     setcourseTitle("");
